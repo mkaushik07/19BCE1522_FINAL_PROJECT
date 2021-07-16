@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
   Alert,
 } from 'react-native';
-import Icon from 'react-native-vector-icons/AntDesign';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 const COLORS = {primary: '#1f145c', white: '#fff'};
 
@@ -150,7 +150,7 @@ const App = () => {
         </View>
         <TouchableOpacity onPress={addTodo}>
           <View style={styles.iconContainer}>
-            <Icon name="plussquare" color="white" size={30} />
+            <Icon name="add" color="white" size={30} />
           </View>
         </TouchableOpacity>
       </View>
